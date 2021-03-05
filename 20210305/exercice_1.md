@@ -1,4 +1,4 @@
-Les données concernant l'archipel Clinto ont probablement été présentée à des fins de propagande politique pour démontrer quelque chose. 
+Les données concernant l'archipel Clinton ont probablement été présentée à des fins de propagande politique pour démontrer quelque chose. 
 Apparement, il existe également la carte du Trumpistant. C'est une utiilsation politisée des données.
 
 
