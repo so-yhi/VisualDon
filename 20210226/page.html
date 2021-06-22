@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Page</title>
+
+    <style>
+        #myBox {
+            background-color: aquamarine;
+
+        }
+
+        #monRectangle:hover {
+            stroke: solid 1px rgb(255, 50, 221);
+        }
+    </style>
 </head>
+
 <body>
-  <svg viewBox="0 0 200 100" id="myBox">
-    
-  </svg>
-    
-  <script>  
-    let canevas = document.getElementById('myBox');
-    
-  </script>
+    <svg viewBox="0 0 100 100" id="myBox">
+        <rect id="monRectangle" x="10" y="10" width="50" height="10" fill="purple" />
+
+    </svg>
+
+
+    <script>
+        const canevas = document.getElementById('monRectangle');
+
+        let isPurple = true;
+        canevas.addEventListener('click', () => {
+            isPurple = !isPurple;
+            canevas.setAttribute('fill', isPurple ? 'purple' : 'cornflowerblue')
+        })
+
+
+        const svg = document.getElementById('myBox')
+
+
+        const createRandomCircle = () => {
+            const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+            circle.setAttribute('cx', Math.random() * 40)
+            circle.setAttribute('cy', Math.random() * 20)
+            circle.setAttribute('r', Math.random() * 8)
+            circle.setAttribute('fill', 'rgb(255, 50, 221)')
+            svg.appendChild(circle)
+        }
+
+        Array.from(Array(2)).forEach(createRandomCircle)
+    </script>
 </body>
+
 </html>
