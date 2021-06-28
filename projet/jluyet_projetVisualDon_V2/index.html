@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div id="monApp">
+    <h1>Temps de jeu de 2013 à aujourd'hui</h1>
+    <p id="explications">Cette page montre le nombre d'heures cumulées sur différents jeux en ma possession.
+        <br> Soit depuis 2013, soit depuis leur acquisition.
+        <br> Cette liste est non-exhaustive.
+    </p>
+    <h2 id="typePlateforme">Veuillez choisir une plateforme</h2>
+    <div>
+        
+            <button onclick="updatePc()">Jeux PC</button>
+            <button onclick="updateSwitch()">Jeux Switch</button>
+
+    </div> <!-- fin div des boutons -->
+</div> <!-- fin #monApp -->
+
+    <div id="d3-container"></div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
