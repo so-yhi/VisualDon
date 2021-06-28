@@ -4,6 +4,8 @@
 
 Travail seule.
 
+/!\ Pour une raison inconnue mon compte git so-yhi a été linké à un autre compte git TouchODeath lors de sa création. Après recherche, cette autre personne possède les mêmes initiales que moi et une adresse mail extrêmement proche (mais vit aux USA). Je suppose que la problématique vient de là.
+
 ### Code source
 
 Disponible dans le même dossier que ce readme. 
